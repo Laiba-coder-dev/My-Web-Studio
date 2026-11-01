@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" font-family="'Segoe UI', Arial, Helvetica, sans-serif" role="img" aria-label="Portway logistics tracking control tower">
+  <defs>
+    <linearGradient id="l1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2563FF"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <linearGradient id="l2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1435"/><stop offset="1" stop-color="#0B1330"/></linearGradient>
+    <radialGradient id="lglow" cx="50%" cy="40%" r="70%"><stop offset="0" stop-color="#1D4ED8" stop-opacity=".55"/><stop offset="1" stop-color="#1D4ED8" stop-opacity="0"/></radialGradient>
+    <filter id="lsh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#020617" flood-opacity=".6"/></filter>
+  </defs>
+
+  <rect width="1600" height="1200" fill="#070C1F"/>
+  <rect width="1600" height="1200" fill="url(#lglow)"/>
+
+  <!-- rail -->
+  <rect width="104" height="1200" fill="#0A1128"/>
+  <rect x="26" y="34" width="52" height="52" rx="16" fill="url(#l1)"/>
+  <path d="M40 66V50l24 20V50" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#3B4A78">
+    <rect x="30" y="150" width="44" height="44" rx="14"/>
+    <rect x="30" y="216" width="44" height="44" rx="14" fill="#2563FF"/>
+    <rect x="30" y="282" width="44" height="44" rx="14"/>
+    <rect x="30" y="348" width="44" height="44" rx="14"/>
+    <rect x="30" y="414" width="44" height="44" rx="14"/>
+  </g>
+  <g fill="#0A1128" font-size="20" font-weight="700" text-anchor="middle">
+    <text x="52" y="179">⌂</text><text x="52" y="245">◎</text><text x="52" y="311">≡</text><text x="52" y="377">◇</text><text x="52" y="443">⚙</text>
+  </g>
+  <circle cx="52" cy="245" r="4" fill="#22D3EE"/>
+
+  <!-- topbar -->
+  <text x="152" y="96" fill="#fff" font-size="38" font-weight="800">Control tower</text>
+  <rect x="520" y="54" width="440" height="60" rx="30" fill="#0E1736"/>
+  <circle cx="562" cy="84" r="10" fill="none" stroke="#5D6BA6" stroke-width="4"/><path d="M570 92l10 10" stroke="#5D6BA6" stroke-width="4" stroke-linecap="round"/>
+  <text x="600" y="92" fill="#5D6BA6" font-size="19">Track container, vessel or client…</text>
+  <rect x="1140" y="54" width="180" height="60" rx="30" fill="#0E1736"/>
+  <circle cx="1176" cy="84" r="9" fill="#22C55E"/><text x="1232" y="92" fill="#86EFAC" font-size="18" font-weight="700" text-anchor="middle">Live · 12,408</text>
+  <rect x="1344" y="54" width="216" height="60" rx="30" fill="url(#l1)"/>
+  <text x="1452" y="92" fill="#fff" font-size="19" font-weight="700" text-anchor="middle">+ New shipment</text>
+
+  <!-- KPI row -->
+  <g transform="translate(152,150)" font-family="'Segoe UI', Arial, sans-serif">
+    <rect width="326" height="132" rx="24" fill="#0E1736"/>
+    <text x="30" y="52" fill="#5D6BA6" font-size="16" font-weight="700">IN TRANSIT</text>
+    <text x="30" y="104" fill="#fff" font-size="46" font-weight="800">4,182</text>
+    <text x="296" y="104" fill="#22D3EE" font-size="19" font-weight="700" text-anchor="end">+6.4%</text>
+
+    <rect x="350" width="326" height="132" rx="24" fill="#0E1736"/>
+    <text x="380" y="52" fill="#5D6BA6" font-size="16" font-weight="700">ON TIME</text>
+    <text x="380" y="104" fill="#fff" font-size="46" font-weight="800">96.4%</text>
+    <rect x="560" y="76" width="94" height="34" rx="17" fill="#14532D"/><text x="607" y="100" fill="#86EFAC" font-size="16" font-weight="700" text-anchor="middle">target 95</text>
+
+    <rect x="700" width="326" height="132" rx="24" fill="#0E1736"/>
+    <text x="730" y="52" fill="#5D6BA6" font-size="16" font-weight="700">AVG. DWELL</text>
+    <text x="730" y="104" fill="#fff" font-size="46" font-weight="800">3.2h</text>
+    <text x="996" y="104" fill="#F87171" font-size="19" font-weight="700" text-anchor="end">+0.4h</text>
+
+    <rect x="1050" width="298" height="132" rx="24" fill="url(#l1)"/>
+    <text x="1080" y="52" fill="#DBEAFE" font-size="16" font-weight="700">CO₂ SAVED</text>
+    <text x="1080" y="104" fill="#fff" font-size="46" font-weight="800">84t</text>
+    <text x="1318" y="104" fill="#E0F2FE" font-size="19" font-weight="700" text-anchor="end">this week</text>
+  </g>
+
+  <!-- map panel -->
+  <g transform="translate(152,320)" filter="url(#lsh)">
+    <rect width="900" height="560" rx="28" fill="#0B1435"/>
+    <g stroke="#1B2557" stroke-width="2">
+      <path d="M0 140H900M0 280H900M0 420H900M225 0V560M450 0V560M675 0V560"/>
+    </g>
+    <!-- landmasses -->
+    <path d="M40 420c60-40 120-20 170-70s40-120 130-140 160 40 230 10 130-70 200-30 90 130 90 210-60 130-140 150H90c-70-30-90-90-50-130z" fill="#111C47"/>
+    <path d="M540 60c70-30 150-10 200 40s60 120 10 160-150 30-200-20-70-150-10-180z" fill="#111C47"/>
+    <!-- route -->
+    <path d="M120 460 C 260 460 300 320 430 300 S 660 260 780 150" fill="none" stroke="#22D3EE" stroke-width="6" stroke-linecap="round" stroke-dasharray="2 22"/>
+    <path d="M120 460 C 260 460 300 320 430 300 S 660 260 780 150" fill="none" stroke="url(#l1)" stroke-width="6" stroke-linecap="round" opacity=".45"/>
+    <!-- pins -->
+    <g>
+      <circle cx="120" cy="460" r="34" fill="#2563FF" fill-opacity=".28"/><circle cx="120" cy="460" r="16" fill="#2563FF"/><circle cx="120" cy="460" r="6" fill="#fff"/>
+      <circle cx="430" cy="300" r="34" fill="#22D3EE" fill-opacity=".25"/><circle cx="430" cy="300" r="16" fill="#22D3EE"/><circle cx="430" cy="300" r="6" fill="#fff"/>
+      <circle cx="780" cy="150" r="40" fill="#7C3AED" fill-opacity=".3"/><circle cx="780" cy="150" r="18" fill="#7C3AED"/><circle cx="780" cy="150" r="7" fill="#fff"/>
+    </g>
+    <!-- moving marker -->
+    <g transform="translate(560,238)">
+      <rect x="-74" y="-58" width="180" height="46" rx="23" fill="#fff"/>
+      <text x="16" y="-28" fill="#0A1233" font-size="19" font-weight="800" text-anchor="middle">MSC · 4471</text>
+      <path d="M0 -12 l-10 16 h20z" fill="#fff"/>
+    </g>
+    <text x="34" y="56" fill="#fff" font-size="24" font-weight="800">Lisbon → Rotterdam</text>
+    <rect x="34" y="76" width="230" height="40" rx="20" fill="#0E1736"/>
+    <circle cx="58" cy="96" r="8" fill="#22C55E"/><text x="78" y="103" fill="#86EFAC" font-size="17" font-weight="700">On schedule · 2d 6h left</text>
+    <g font-size="16" fill="#5D6BA6"><text x="34" y="530">ETA 09 Nov · 06:20 CET</text><text x="866" y="530" text-anchor="end">3,14 km remaining</text></g>
+  </g>
+
+  <!-- shipment list -->
+  <g transform="translate(1084,320)" filter="url(#lsh)">
+    <rect width="474" height="560" rx="28" fill="#0B1435"/>
+    <text x="34" y="64" fill="#fff" font-size="24" font-weight="800">Active shipments</text>
+    <rect x="330" y="34" width="112" height="40" rx="20" fill="#132052"/><text x="386" y="61" fill="#93C5FD" font-size="16" font-weight="700" text-anchor="middle">Filter ⌄</text>
+    <g font-size="17">
+      <g transform="translate(34,100)">
+        <rect width="406" height="96" rx="22" fill="#0E1736"/>
+        <rect x="20" y="24" width="52" height="48" rx="14" fill="url(#l1)"/>
+        <text x="92" y="46" fill="#fff" font-size="19" font-weight="700">FL-4471 · Lisbon</text>
+        <text x="92" y="74" fill="#5D6BA6">ETA 09 Nov · Rotterdam</text>
+        <rect x="300" y="30" width="88" height="36" rx="18" fill="#14532D"/><text x="344" y="54" fill="#86EFAC" font-size="15" font-weight="700" text-anchor="middle">ON TIME</text>
+      </g>
+      <g transform="translate(34,212)">
+        <rect width="406" height="96" rx="22" fill="#0E1736"/>
+        <rect x="20" y="24" width="52" height="48" rx="14" fill="#7C3AED"/>
+        <text x="92" y="46" fill="#fff" font-size="19" font-weight="700">FL-4390 · Valencia</text>
+        <text x="92" y="74" fill="#5D6BA6">ETA 11 Nov · Antwerp</text>
+        <rect x="300" y="30" width="88" height="36" rx="18" fill="#14532D"/><text x="344" y="54" fill="#86EFAC" font-size="15" font-weight="700" text-anchor="middle">ON TIME</text>
+      </g>
+      <g transform="translate(34,324)">
+        <rect width="406" height="96" rx="22" fill="#0E1736"/>
+        <rect x="20" y="24" width="52" height="48" rx="14" fill="#F59E0B"/>
+        <text x="92" y="46" fill="#fff" font-size="19" font-weight="700">FL-4388 · Piraeus</text>
+        <text x="92" y="74" fill="#5D6BA6">Customs hold · 6h</text>
+        <rect x="300" y="30" width="88" height="36" rx="18" fill="#78350F"/><text x="344" y="54" fill="#FCD34D" font-size="15" font-weight="700" text-anchor="middle">DELAYED</text>
+      </g>
+      <g transform="translate(34,436)">
+        <rect width="406" height="96" rx="22" fill="#0E1736"/>
+        <rect x="20" y="24" width="52" height="48" rx="14" fill="#22D3EE"/>
+        <text x="92" y="46" fill="#fff" font-size="19" font-weight="700">FL-4371 · Gdańsk</text>
+        <text x="92" y="74" fill="#5D6BA6">ETA 08 Nov · Hamburg</text>
+        <rect x="300" y="30" width="88" height="36" rx="18" fill="#0E7490"/><text x="344" y="54" fill="#A5F3FC" font-size="15" font-weight="700" text-anchor="middle">BOARDING</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- throughput chart -->
+  <g transform="translate(152,920)" filter="url(#lsh)">
+    <rect width="1406" height="230" rx="28" fill="#0B1435"/>
+    <text x="34" y="56" fill="#fff" font-size="24" font-weight="800">Daily throughput</text>
+    <text x="1372" y="56" fill="#5D6BA6" font-size="17" text-anchor="end">containers handled</text>
+    <g>
+      <rect x="34" y="140" width="52" height="56" rx="10" fill="#1E2A63"/>
+      <rect x="106" y="116" width="52" height="80" rx="10" fill="#1E2A63"/>
+      <rect x="178" y="128" width="52" height="68" rx="10" fill="#1E2A63"/>
+      <rect x="250" y="96" width="52" height="100" rx="10" fill="#243791"/>
+      <rect x="322" y="108" width="52" height="88" rx="10" fill="#243791"/>
+      <rect x="394" y="74" width="52" height="122" rx="10" fill="url(#l1)"/>
+      <rect x="466" y="88" width="52" height="108" rx="10" fill="url(#l1)"/>
+      <rect x="538" y="60" width="52" height="136" rx="10" fill="url(#l1)"/>
+      <rect x="610" y="92" width="52" height="104" rx="10" fill="#243791"/>
+      <rect x="682" y="70" width="52" height="126" rx="10" fill="url(#l1)"/>
+      <rect x="754" y="46" width="52" height="150" rx="10" fill="url(#l1)"/>
+      <rect x="826" y="66" width="52" height="130" rx="10" fill="url(#l1)"/>
+    </g>
+    <g font-size="15" fill="#5D6BA6"><text x="60" y="216">M</text><text x="132" y="216">T</text><text x="204" y="216">W</text><text x="276" y="216">T</text><text x="348" y="216">F</text><text x="420" y="216">S</text><text x="492" y="216">S</text><text x="564" y="216">M</text><text x="636" y="216">T</text><text x="708" y="216">W</text><text x="780" y="216">T</text><text x="852" y="216">F</text></g>
+    <path d="M34 148 C 200 130 380 120 560 96 S 900 74 1372 40" fill="none" stroke="#7C3AED" stroke-width="5" stroke-linecap="round"/>
+    <g transform="translate(1120,60)">
+      <rect width="252" height="96" rx="22" fill="#0E1736" stroke="#23306B" stroke-width="2"/>
+      <text x="26" y="44" fill="#fff" font-size="34" font-weight="800">18,204</text>
+      <text x="26" y="74" fill="#5D6BA6" font-size="16">avg. per day</text>
+    </g>
+  </g>
+</svg>

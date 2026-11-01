@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" font-family="'Segoe UI', Arial, Helvetica, sans-serif" role="img" aria-label="Lumen Retail revenue analytics dashboard">
+  <defs>
+    <linearGradient id="d1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2563FF"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <linearGradient id="d2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2563FF" stop-opacity=".38"/><stop offset="1" stop-color="#2563FF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="d3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7C3AED"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#0A1233" flood-opacity=".10"/></filter>
+  </defs>
+
+  <rect width="1600" height="1200" fill="#F5F7FC"/>
+
+  <!-- sidebar -->
+  <rect width="300" height="1200" fill="#0A1233"/>
+  <rect x="34" y="40" width="42" height="42" rx="13" fill="url(#d1)"/>
+  <path d="M46 70V52l18 18V52" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="92" y="69" fill="#fff" font-size="23" font-weight="700" letter-spacing="1">LUMEN</text>
+  <g font-size="17" fill="#8FA0C9">
+    <rect x="20" y="130" width="260" height="52" rx="14" fill="#2563FF" fill-opacity=".22"/>
+    <rect x="34" y="146" width="20" height="20" rx="6" fill="#22D3EE"/><text x="72" y="163" fill="#fff" font-weight="600">Overview</text>
+    <rect x="34" y="216" width="20" height="20" rx="6" fill="#3B4A78"/><text x="72" y="233">Orders</text>
+    <rect x="34" y="286" width="20" height="20" rx="6" fill="#3B4A78"/><text x="72" y="303">Customers</text>
+    <rect x="34" y="356" width="20" height="20" rx="6" fill="#3B4A78"/><text x="72" y="373">Inventory</text>
+    <rect x="34" y="426" width="20" height="20" rx="6" fill="#3B4A78"/><text x="72" y="443">Campaigns</text>
+    <rect x="34" y="496" width="20" height="20" rx="6" fill="#3B4A78"/><text x="72" y="513">Reports</text>
+  </g>
+  <rect x="20" y="1080" width="260" height="96" rx="18" fill="#141E45"/>
+  <circle cx="66" cy="1128" r="24" fill="#2563FF"/><text x="66" y="1136" fill="#fff" font-size="19" font-weight="700" text-anchor="middle">AM</text>
+  <text x="102" y="1122" fill="#fff" font-size="16" font-weight="600">Ava Mitchell</text>
+  <text x="102" y="1146" fill="#7E8CB5" font-size="14">Admin</text>
+
+  <!-- topbar -->
+  <rect x="340" y="34" width="640" height="58" rx="29" fill="#fff"/>
+  <circle cx="382" cy="63" r="10" fill="none" stroke="#94A3C4" stroke-width="3.5"/><path d="M390 71l9 9" stroke="#94A3C4" stroke-width="3.5" stroke-linecap="round"/>
+  <text x="414" y="70" fill="#94A3C4" font-size="17">Search orders, customers…</text>
+  <rect x="1240" y="34" width="180" height="58" rx="29" fill="url(#d1)"/>
+  <text x="1330" y="70" fill="#fff" font-size="17" font-weight="600" text-anchor="middle">Export CSV</text>
+  <rect x="1444" y="34" width="130" height="58" rx="29" fill="#fff"/>
+  <text x="1509" y="70" fill="#0A1233" font-size="17" font-weight="600" text-anchor="middle">Q3 2026</text>
+
+  <!-- heading -->
+  <text x="340" y="176" fill="#0A1233" font-size="42" font-weight="700">Revenue overview</text>
+  <text x="340" y="212" fill="#6B769B" font-size="19">Performance across 6 storefronts · updated 4 min ago</text>
+
+  <!-- KPI cards -->
+  <g filter="url(#sh)">
+    <rect x="340" y="250" width="340" height="170" rx="24" fill="#fff"/>
+    <rect x="700" y="250" width="340" height="170" rx="24" fill="#fff"/>
+    <rect x="1060" y="250" width="340" height="170" rx="24" fill="#fff"/>
+    <rect x="1420" y="250" width="154" height="170" rx="24" fill="#0A1233"/>
+  </g>
+  <g font-size="15" fill="#8992B3" font-weight="600"><text x="372" y="298">NET REVENUE</text><text x="732" y="298">CONVERSION</text><text x="1092" y="298">ORDERS</text></g>
+  <g font-size="40" font-weight="700" fill="#0A1233"><text x="372" y="356">$482.9k</text><text x="732" y="356">4.86%</text><text x="1092" y="356">12,480</text></g>
+  <g font-size="15" font-weight="700">
+    <rect x="372" y="374" width="104" height="32" rx="16" fill="#DCFCE7"/><text x="424" y="396" fill="#15803D" text-anchor="middle">▲ 34.2%</text>
+    <rect x="732" y="374" width="104" height="32" rx="16" fill="#DCFCE7"/><text x="784" y="396" fill="#15803D" text-anchor="middle">▲ 0.9pt</text>
+    <rect x="1092" y="374" width="104" height="32" rx="16" fill="#FEE2E2"/><text x="1144" y="396" fill="#B91C1C" text-anchor="middle">▼ 2.1%</text>
+  </g>
+  <text x="1497" y="316" fill="#22D3EE" font-size="46" font-weight="700" text-anchor="middle">98</text>
+  <text x="1497" y="346" fill="#8FA0C9" font-size="14" text-anchor="middle">LIGHTHOUSE</text>
+  <text x="1497" y="380" fill="#fff" font-size="15" font-weight="600" text-anchor="middle">AA ✓</text>
+
+  <!-- main chart -->
+  <g filter="url(#sh)"><rect x="340" y="446" width="740" height="430" rx="26" fill="#fff"/></g>
+  <text x="372" y="500" fill="#0A1233" font-size="22" font-weight="700">Sales by week</text>
+  <rect x="856" y="476" width="190" height="34" rx="17" fill="#EEF2FF"/>
+  <text x="951" y="499" fill="#2563FF" font-size="15" font-weight="700" text-anchor="middle">Last 12 weeks</text>
+  <g stroke="#E7EBF6" stroke-width="2">
+    <path d="M372 560H1048M372 640H1048M372 720H1048M372 800H1048"/>
+  </g>
+  <path d="M372 792 L432 742 L492 764 L552 690 L612 706 L672 632 L732 648 L792 574 L852 596 L912 528 L972 546 L1048 492 L1048 830 L372 830 Z" fill="url(#d2)"/>
+  <polyline points="372,792 432,742 492,764 552,690 612,706 672,632 732,648 792,574 852,596 912,528 972,546 1048,492" fill="none" stroke="#2563FF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="372,814 432,800 492,784 552,772 612,754 672,742 732,720 792,708 852,690 912,672 972,656 1048,634" fill="none" stroke="#7C3AED" stroke-width="4" stroke-dasharray="14 12" stroke-linecap="round"/>
+  <circle cx="1048" cy="492" r="12" fill="#fff" stroke="#2563FF" stroke-width="6"/>
+  <g font-size="14" fill="#98A1C0"><text x="372" y="856">W1</text><text x="492" y="856">W3</text><text x="612" y="856">W5</text><text x="732" y="856">W7</text><text x="852" y="856">W9</text><text x="972" y="856">W11</text></g>
+
+  <!-- right panel: channels -->
+  <g filter="url(#sh)"><rect x="1100" y="446" width="474" height="430" rx="26" fill="#fff"/></g>
+  <text x="1132" y="500" fill="#0A1233" font-size="22" font-weight="700">Top channels</text>
+  <g font-size="17">
+    <text x="1132" y="556" fill="#3A4468">Organic search</text><rect x="1132" y="572" width="380" height="14" rx="7" fill="#EEF1F9"/><rect x="1132" y="572" width="310" height="14" rx="7" fill="url(#d1)"/>
+    <text x="1132" y="628" fill="#3A4468">Direct</text><rect x="1132" y="644" width="380" height="14" rx="7" fill="#EEF1F9"/><rect x="1132" y="644" width="242" height="14" rx="7" fill="#7C3AED"/>
+    <text x="1132" y="700" fill="#3A4468">Paid social</text><rect x="1132" y="716" width="380" height="14" rx="7" fill="#EEF1F9"/><rect x="1132" y="716" width="186" height="14" rx="7" fill="#22D3EE"/>
+    <text x="1132" y="772" fill="#3A4468">Email</text><rect x="1132" y="788" width="380" height="14" rx="7" fill="#EEF1F9"/><rect x="1132" y="788" width="124" height="14" rx="7" fill="#0A1233"/>
+  </g>
+  <g font-size="16" font-weight="700" fill="#0A1233" text-anchor="end">
+    <text x="1542" y="556">42%</text><text x="1542" y="628">31%</text><text x="1542" y="700">18%</text><text x="1542" y="772">9%</text>
+  </g>
+
+  <!-- transactions -->
+  <g filter="url(#sh)"><rect x="340" y="906" width="1234" height="254" rx="26" fill="#fff"/></g>
+  <text x="372" y="958" fill="#0A1233" font-size="22" font-weight="700">Recent transactions</text>
+  <g font-size="16" fill="#8992B3" font-weight="600"><text x="900" y="958">CUSTOMER</text><text x="1200" y="958">STATUS</text><text x="1542" y="958" text-anchor="end">AMOUNT</text></g>
+  <g stroke="#EEF1F9" stroke-width="2"><path d="M372 978H1542M372 1032H1542M372 1086H1542"/></g>
+  <g font-size="17" fill="#3A4468">
+    <circle cx="404" cy="1005" r="17" fill="#EEF2FF"/><text x="404" y="1011" fill="#2563FF" font-weight="700" font-size="14" text-anchor="middle">MK</text>
+    <text x="434" y="1011" fill="#0A1233" font-weight="600">#INV-2941</text><text x="900" y="1011">Marta Kowalski</text>
+    <rect x="1200" y="988" width="118" height="34" rx="17" fill="#DCFCE7"/><text x="1259" y="1011" fill="#15803D" font-weight="700" font-size="15" text-anchor="middle">Paid</text>
+    <text x="1542" y="1011" text-anchor="end" font-weight="700" fill="#0A1233">$1,240.00</text>
+
+    <circle cx="404" cy="1059" r="17" fill="#F5F3FF"/><text x="404" y="1065" fill="#7C3AED" font-weight="700" font-size="14" text-anchor="middle">DR</text>
+    <text x="434" y="1065" fill="#0A1233" font-weight="600">#INV-2940</text><text x="900" y="1065">Daniel Reyes</text>
+    <rect x="1200" y="1042" width="118" height="34" rx="17" fill="#FEF3C7"/><text x="1259" y="1065" fill="#B45309" font-weight="700" font-size="15" text-anchor="middle">Pending</text>
+    <text x="1542" y="1065" text-anchor="end" font-weight="700" fill="#0A1233">$820.50</text>
+
+    <circle cx="404" cy="1113" r="17" fill="#ECFEFF"/><text x="404" y="1119" fill="#0891B2" font-weight="700" font-size="14" text-anchor="middle">SL</text>
+    <text x="434" y="1119" fill="#0A1233" font-weight="600">#INV-2939</text><text x="900" y="1119">Sofia Lindqvist</text>
+    <rect x="1200" y="1096" width="118" height="34" rx="17" fill="#DCFCE7"/><text x="1259" y="1119" fill="#15803D" font-weight="700" font-size="15" text-anchor="middle">Paid</text>
+    <text x="1542" y="1119" text-anchor="end" font-weight="700" fill="#0A1233">$3,410.00</text>
+  </g>
+</svg>
