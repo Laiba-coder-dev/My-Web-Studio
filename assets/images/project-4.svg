@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" font-family="'Segoe UI', Arial, Helvetica, sans-serif" role="img" aria-label="Freightline brand identity guidelines">
+  <defs>
+    <linearGradient id="b1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2563FF"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <linearGradient id="b2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111A3E"/><stop offset="1" stop-color="#0A1233"/></linearGradient>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0H0V50" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1.5"/></pattern>
+    <filter id="bsh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="20" stdDeviation="26" flood-color="#020617" flood-opacity=".55"/></filter>
+  </defs>
+
+  <rect width="1600" height="1200" fill="url(#b2)"/>
+  <rect width="1600" height="1200" fill="url(#grid)"/>
+
+  <text x="120" y="110" fill="#22D3EE" font-size="18" font-weight="700" letter-spacing="6">BRAND IDENTITY · 2024</text>
+
+  <!-- primary mark -->
+  <g transform="translate(120,180)">
+    <rect width="360" height="360" rx="48" fill="url(#b1)" filter="url(#bsh)"/>
+    <path d="M104 268V112l152 156V112" fill="none" stroke="#fff" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="256" cy="112" r="26" fill="#0A1233"/>
+    <text x="0" y="452" fill="#fff" font-size="74" font-weight="800" letter-spacing="6">FREIGHTLINE</text>
+    <text x="4" y="500" fill="#8FA0C9" font-size="24" letter-spacing="10">MOVE WHAT MATTERS</text>
+  </g>
+
+  <!-- colour palette -->
+  <g transform="translate(660,180)">
+    <text x="0" y="0" fill="#fff" font-size="22" font-weight="700">Colour</text>
+    <g transform="translate(0,28)">
+      <rect width="128" height="150" rx="22" fill="#2563FF"/>
+      <rect x="144" width="128" height="150" rx="22" fill="#22D3EE"/>
+      <rect x="288" width="128" height="150" rx="22" fill="#7C3AED"/>
+      <rect x="432" width="128" height="150" rx="22" fill="#0A1233" stroke="#ffffff" stroke-opacity=".22" stroke-width="2"/>
+      <rect x="576" width="128" height="150" rx="22" fill="#F1F5F9"/>
+      <g fill="#0A1233" font-size="14" font-weight="700">
+        <text x="0" y="182">#2563FF</text><text x="144" y="182" fill="#22D3EE">#22D3EE</text><text x="288" y="182" fill="#7C3AED">#7C3AED</text>
+        <text x="432" y="182" fill="#8FA0C9">#0A1233</text><text x="576" y="182" fill="#64748B">#F1F5F9</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- typography specimen -->
+  <g transform="translate(660,440)">
+    <text x="0" y="0" fill="#fff" font-size="22" font-weight="700">Typography</text>
+    <rect y="26" width="704" height="216" rx="26" fill="#0E1740" stroke="#ffffff" stroke-opacity=".1" stroke-width="2"/>
+    <text x="36" y="164" fill="#fff" font-size="132" font-weight="800">Aa</text>
+    <text x="240" y="96" fill="#22D3EE" font-size="30" font-weight="700">Space Grotesk Bold</text>
+    <text x="240" y="136" fill="#B9C4E8" font-size="22">Headlines · 48–120 px · −2% tracking</text>
+    <text x="240" y="176" fill="#8FA0C9" font-size="19">ABCDEFGHIJKLM 0123456789</text>
+    <text x="240" y="212" fill="#5D6BA6" font-size="17">Inter Regular — body copy, UI, captions</text>
+  </g>
+
+  <!-- business cards -->
+  <g transform="translate(120,760)">
+    <text x="0" y="0" fill="#fff" font-size="22" font-weight="700">Stationery</text>
+    <g transform="translate(0,30)" filter="url(#bsh)">
+      <rect width="440" height="266" rx="24" fill="url(#b1)"/>
+      <path d="M48 190V76l110 114V76" fill="none" stroke="#fff" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="48" y="236" fill="#fff" font-size="30" font-weight="800" letter-spacing="4">FREIGHTLINE</text>
+    </g>
+    <g transform="translate(472,30)" filter="url(#bsh)">
+      <rect width="440" height="266" rx="24" fill="#F8FAFC"/>
+      <text x="44" y="86" fill="#0A1233" font-size="30" font-weight="800">Sofia Ramirez</text>
+      <text x="44" y="122" fill="#2563FF" font-size="19" font-weight="700">Head of Brand</text>
+      <g fill="#64748B" font-size="17">
+        <text x="44" y="182">s.ramirez@freightline.com</text>
+        <text x="44" y="214">+351 210 000 118 · Lisbon</text>
+      </g>
+      <rect x="316" y="52" width="80" height="80" rx="20" fill="#0A1233"/>
+      <path d="M336 112V72l40 42V72" fill="none" stroke="#22D3EE" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <!-- applications -->
+  <g transform="translate(1104,760)">
+    <text x="0" y="0" fill="#fff" font-size="22" font-weight="700">Applications</text>
+    <g transform="translate(0,30)" filter="url(#bsh)">
+      <rect width="376" height="266" rx="24" fill="#0E1740" stroke="#ffffff" stroke-opacity=".1" stroke-width="2"/>
+      <rect x="40" y="44" width="296" height="60" rx="16" fill="url(#b1)"/>
+      <text x="64" y="83" fill="#fff" font-size="24" font-weight="800" letter-spacing="3">FL · CARGO 4471</text>
+      <rect x="40" y="128" width="296" height="14" rx="7" fill="#23306B"/>
+      <rect x="40" y="158" width="220" height="14" rx="7" fill="#23306B"/>
+      <rect x="40" y="200" width="140" height="46" rx="23" fill="#22D3EE"/>
+      <text x="110" y="230" fill="#0A1233" font-size="19" font-weight="800" text-anchor="middle">TRACK</text>
+      <rect x="200" y="200" width="136" height="46" rx="23" fill="none" stroke="#3B4A90" stroke-width="2.5"/>
+      <text x="268" y="230" fill="#B9C4E8" font-size="19" font-weight="700" text-anchor="middle">DOCS</text>
+    </g>
+  </g>
+
+  <!-- footer strip -->
+  <path d="M120 1128H1480" stroke="#ffffff" stroke-opacity=".14" stroke-width="2"/>
+  <text x="120" y="1166" fill="#5D6BA6" font-size="17">freightline.com/brand</text>
+  <text x="1480" y="1166" fill="#5D6BA6" font-size="17" text-anchor="end">My Web Studio · Identity system v2.1</text>
+</svg>

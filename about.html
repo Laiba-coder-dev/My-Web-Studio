@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About My Web Studio — Our Story, Team &amp; Values</title>
+<meta name="description" content="Meet the designers, engineers and strategists behind My Web Studio, and learn how we work with clients around the world.">
+<meta name="theme-color" content="#050B1F">
+<meta property="og:title" content="About My Web Studio — Our Story, Team &amp; Values">
+<meta property="og:description" content="Founded in 2014 by two developers tired of pretty decks that never became products.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="My Web Studio">
+<meta property="og:image" content="assets/images/og-image.jpg">
+<meta property="og:image:alt" content="My Web Studio — digital products, branding and growth studio">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="assets/images/og-image.jpg">
+<script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"My Web Studio","url":"https://mywebstudio.pk/","logo":"https://mywebstudio.pk/assets/images/apple-touch-icon.png","description":"Digital studio designing and building websites, apps and brand systems.","email":"hello@mywebstudio.pk","address":{"@type":"PostalAddress","addressCountry":"PK"}}
+</script>
+<link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg?v=2">
+<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script>
+  try {
+    var t = localStorage.getItem('mywebstudio-theme');
+    if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  } catch (e) {}
+</script>
+</head>
+<body data-page="about">
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <img src="assets/images/logo.svg" alt="My Web Studio logo" width="36" height="36">
+      <span>My <i>Web</i> <small>Studio</small></span>
+    </a>
+
+    <nav class="nav-links" id="navMenu" aria-label="Main navigation">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="about.html" data-nav="about">About</a>
+      <a href="services.html" data-nav="services">Services</a>
+      <a href="portfolio.html" data-nav="portfolio">Portfolio</a>
+      <a href="contact.html" data-nav="contact">Contact</a>
+      <a class="btn nav-cta-mobile" href="contact.html">Start a project</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <a class="btn btn--sm nav-cta" href="contact.html">Start a project</a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a><span aria-hidden="true">/</span><span>About</span>
+      </nav>
+
+      <div class="page-hero__grid">
+        <div>
+          <h1>We're a studio that <em class="serif">ships</em></h1>
+          <p class="page-hero__lede">Founded in 2014 by two developers who were tired of pretty decks that never became products. Today we're 34 people across three time zones — still small enough that the people in the kick-off call do the work.</p>
+          <div class="hero__actions">
+            <a class="btn" href="contact.html">Work with us</a>
+            <a class="btn btn--ghost" href="portfolio.html">See our work</a>
+          </div>
+        </div>
+
+        <div class="story-collage reveal" data-reveal="zoom">
+          <img src="assets/images/photo-team-collab.jpg" alt="My Web Studio team collaborating around a table" width="700" height="930">
+          <img src="assets/images/photo-workshop.jpg" alt="Workshop session at a whiteboard" width="700" height="525" loading="lazy">
+          <img src="assets/images/photo-office.jpg" alt="The My Web Studio studio office in Pakistan" width="700" height="525" loading="lazy">
+          <span class="story-collage__badge">
+            <strong>34</strong>
+            <span>specialists<br>3 time zones</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split">
+      <div class="split__media reveal" data-reveal="left">
+        <img src="assets/images/photo-meeting.jpg" alt="Client meeting in the My Web Studio studio" width="1000" height="750" loading="lazy">
+        <span class="float-badge">
+          <span class="icon-tile" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.4-9-9a5 5 0 0 1 9-3 5 5 0 0 1 9 3c-2 4.6-9 9-9 9z"/></svg>
+          </span>
+          <span>Senior-only team<br>on every project</span>
+        </span>
+      </div>
+
+      <div class="reveal" data-reveal="right">
+        <span class="eyebrow">Our story</span>
+        <h2>From two laptops to a full product team</h2>
+        <p>My Web Studio started in a co-working corner with one rule: <strong>never hand over something you'd be embarrassed to maintain.</strong> That rule still shapes every pull request we review.</p>
+        <p>Over the years we've grown into a cross-functional team of strategists, designers and engineers — but we've deliberately stayed small enough that nothing gets lost in translation between sales, design and delivery.</p>
+        <ul class="list-check">
+          <li>Senior-only team — no juniors learning on your budget</li>
+          <li>Fixed-scope sprints with weekly demos and shared roadmaps</li>
+          <li>Open-source contributions and internal tooling days</li>
+          <li>Carbon-offset hosting for every site we launch</li>
+        </ul>
+        <div class="hero__actions">
+          <a class="btn btn--ghost" href="services.html">How we can help</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">By the numbers</span>
+        <h2>A decade of measurable results</h2>
+      </div>
+      <div class="stats reveal">
+        <div class="stat">
+          <span class="stat__value" data-count="240" data-suffix="+">0</span>
+          <span class="stat__label">Clients served</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value" data-count="480" data-suffix="+">0</span>
+          <span class="stat__label">Projects delivered</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value" data-count="12" data-suffix=" yrs">0</span>
+          <span class="stat__label">Years in business</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value" data-count="4.9" data-decimals="1" data-suffix="/5">0</span>
+          <span class="stat__label">Average client rating</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split split--start">
+      <div class="reveal" data-reveal="left">
+        <span class="eyebrow">What we believe</span>
+        <h2>Four values we actually use</h2>
+        <p class="mt-2">Not poster slogans — these are the tie-breakers in our design reviews and retros. When two options look equally good, these decide.</p>
+
+        <div class="values mt-3">
+          <article class="value">
+            <span class="value__num" aria-hidden="true">01</span>
+            <div>
+              <h3>Clarity over cleverness</h3>
+              <p>If a stakeholder can't explain it to their CEO, we haven't finished.</p>
+            </div>
+          </article>
+          <article class="value">
+            <span class="value__num" aria-hidden="true">02</span>
+            <div>
+              <h3>Test, don't guess</h3>
+              <p>Every major decision gets a hypothesis and a way to be proven wrong.</p>
+            </div>
+          </article>
+          <article class="value">
+            <span class="value__num" aria-hidden="true">03</span>
+            <div>
+              <h3>Accessible by default</h3>
+              <p>WCAG 2.2 AA is the floor, not the stretch goal, on every build.</p>
+            </div>
+          </article>
+          <article class="value">
+            <span class="value__num" aria-hidden="true">04</span>
+            <div>
+              <h3>Leave it better</h3>
+              <p>Cleaner code, documented systems and a team that can run it without us.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="reveal" data-reveal="right">
+        <span class="eyebrow">Milestones</span>
+        <h2>Twelve years, briefly</h2>
+
+        <div class="timeline mt-3">
+          <article class="timeline__item">
+            <span class="timeline__year">2014</span>
+            <h3>Two laptops, one rule</h3>
+            <p>Ava and Daniel start My Web Studio out of a Pakistan co-working space, taking on front-end work nobody else wanted.</p>
+          </article>
+          <article class="timeline__item">
+            <span class="timeline__year">2017</span>
+            <h3>First product team</h3>
+            <p>We stop selling hours and start selling outcomes — designers, engineers and a strategist embedded together.</p>
+          </article>
+          <article class="timeline__item">
+            <span class="timeline__year">2020</span>
+            <h3>Distributed by design</h3>
+            <p>Remote-first processes built for three time zones. Clients get a four-hour overlap window, every day.</p>
+          </article>
+          <article class="timeline__item">
+            <span class="timeline__year">2023</span>
+            <h3>Accessibility practice</h3>
+            <p>A dedicated a11y discipline after our tenth WCAG audit — now baked into every sprint, not bolted on.</p>
+          </article>
+          <article class="timeline__item">
+            <span class="timeline__year">2026</span>
+            <h3>34 specialists, still independent</h3>
+            <p>Delivering work in nine countries while staying small enough that founders still join the kick-off call.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">The team</span>
+        <h2>People you'll work with</h2>
+        <p>A snapshot of the leadership crew — plus 30 more specialists behind them.</p>
+      </div>
+
+      <div class="people">
+        <article class="person reveal">
+          <div class="person__photo">
+            <img src="assets/images/photo-portrait-f3.jpg" alt="Ava Mitchell, co-founder and strategy lead" width="600" height="690" loading="lazy">
+            <span class="person__role">Strategy</span>
+          </div>
+          <div class="person__body">
+            <h3>Ava Mitchell</h3>
+            <p>Co-founder &amp; Strategy Lead</p>
+            <div class="person__links">
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="Ava Mitchell on LinkedIn">in</a>
+              <a href="https://x.com/" target="_blank" rel="noopener" aria-label="Ava Mitchell on X">X</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="person reveal" style="--delay:80ms">
+          <div class="person__photo">
+            <img src="assets/images/photo-portrait-m2.jpg" alt="Daniel Okafor, co-founder and CTO" width="600" height="690" loading="lazy">
+            <span class="person__role">Engineering</span>
+          </div>
+          <div class="person__body">
+            <h3>Daniel Okafor</h3>
+            <p>Co-founder &amp; CTO</p>
+            <div class="person__links">
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="Daniel Okafor on LinkedIn">in</a>
+              <a href="https://github.com/" target="_blank" rel="noopener" aria-label="Daniel Okafor on GitHub">GH</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="person reveal" style="--delay:160ms">
+          <div class="person__photo">
+            <img src="assets/images/photo-portrait-f4.jpg" alt="Sofia Ramirez, design director" width="600" height="690" loading="lazy">
+            <span class="person__role">Design</span>
+          </div>
+          <div class="person__body">
+            <h3>Sofia Ramirez</h3>
+            <p>Design Director</p>
+            <div class="person__links">
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="Sofia Ramirez on LinkedIn">in</a>
+              <a href="https://dribbble.com/" target="_blank" rel="noopener" aria-label="Sofia Ramirez on Dribbble">Dr</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="person reveal" style="--delay:240ms">
+          <div class="person__photo">
+            <img src="assets/images/photo-portrait-m3.jpg" alt="Noah Bergström, head of engineering" width="600" height="690" loading="lazy">
+            <span class="person__role">Platform</span>
+          </div>
+          <div class="person__body">
+            <h3>Noah Bergström</h3>
+            <p>Head of Engineering</p>
+            <div class="person__links">
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="Noah Bergström on LinkedIn">in</a>
+              <a href="https://github.com/" target="_blank" rel="noopener" aria-label="Noah Bergström on GitHub">GH</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <div class="cta reveal">
+        <h2>Want to build something together?</h2>
+        <p>We take on a limited number of projects each quarter so every client gets senior attention.</p>
+        <div class="hero__actions">
+          <a class="btn btn--light" href="contact.html">Get in touch</a>
+          <a class="btn btn--on-dark" href="services.html">Explore services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a class="brand" href="index.html">
+          <img src="assets/images/logo.svg" alt="My Web Studio logo" width="36" height="36">
+          <span>My <i>Web</i> <small>Studio</small></span>
+        </a>
+        <p>A digital studio in Pakistan building websites, apps and brands for companies that want to grow up properly online.</p>
+        <div class="socials">
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener" title="My Web Studio on LinkedIn"><span aria-hidden="true">in</span></a>
+          <a href="https://x.com/" target="_blank" rel="noopener" title="My Web Studio on X"><span aria-hidden="true">X</span></a>
+          <a href="https://github.com/" target="_blank" rel="noopener" title="My Web Studio on GitHub"><span aria-hidden="true">GH</span></a>
+          <a href="https://dribbble.com/" target="_blank" rel="noopener" title="My Web Studio on Dribbble"><span aria-hidden="true">Dr</span></a>
+        </div>
+      </div>
+
+      <div>
+        <h3>Company</h3>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Services</h3>
+        <ul>
+          <li><a href="services.html">Web design</a></li>
+          <li><a href="services.html">Development</a></li>
+          <li><a href="services.html">Branding</a></li>
+          <li><a href="services.html">SEO &amp; growth</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Newsletter</h3>
+        <p>Monthly design and growth notes. No spam, unsubscribe anytime.</p>
+        <form class="newsletter" id="newsletterForm" novalidate>
+          <label class="sr-only" for="newsletterEmail">Email address</label>
+          <input type="email" id="newsletterEmail" placeholder="you@company.com" autocomplete="email">
+          <button type="submit" aria-label="Subscribe"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+          <span class="error">Please enter a valid email address.</span>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="mb-0">© <span data-year>2026</span> My Web Studio. All rights reserved.</p>
+      <ul>
+        <li><a href="contact.html">Privacy</a></li>
+        <li><a href="contact.html">Terms</a></li>
+        <li><a href="contact.html">Cookies</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="Scroll back to top"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+
+<script src="js/main.js"></script>
+</body>
+</html>

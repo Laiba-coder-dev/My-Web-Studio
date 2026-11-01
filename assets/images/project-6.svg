@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" font-family="'Segoe UI', Arial, Helvetica, sans-serif" role="img" aria-label="Brightpath learning platform course dashboard">
+  <defs>
+    <linearGradient id="p1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7C3AED"/><stop offset="1" stop-color="#2563FF"/></linearGradient>
+    <linearGradient id="p2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2563FF"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <linearGradient id="p3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F472B6"/><stop offset="1" stop-color="#7C3AED"/></linearGradient>
+    <linearGradient id="p4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FDE68A"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
+    <linearGradient id="pcover" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1E2B63"/><stop offset="1" stop-color="#0A1233"/></linearGradient>
+    <filter id="psh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#0A1233" flood-opacity=".12"/></filter>
+    <filter id="psh2" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#0A1233" flood-opacity=".18"/></filter>
+  </defs>
+
+  <rect width="1600" height="1200" fill="#F4F6FD"/>
+  <circle cx="1420" cy="120" r="260" fill="#7C3AED" fill-opacity=".07"/>
+  <circle cx="140" cy="1080" r="240" fill="#22D3EE" fill-opacity=".08"/>
+
+  <!-- sidebar -->
+  <rect width="280" height="1200" fill="#fff"/>
+  <path d="M0 0h280v1200H0z" fill="none" stroke="#E9EDF9" stroke-width="2"/>
+  <rect x="34" y="36" width="44" height="44" rx="14" fill="url(#p1)"/>
+  <path d="M46 68V48l20 20V48" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="68" fill="#0A1233" font-size="25" font-weight="800" letter-spacing="1">Brightpath</text>
+
+  <g font-size="18">
+    <rect x="20" y="132" width="240" height="56" rx="18" fill="#F3F0FF"/>
+    <rect x="36" y="150" width="20" height="20" rx="7" fill="#7C3AED"/><text x="76" y="167" fill="#7C3AED" font-weight="700">Dashboard</text>
+    <rect x="36" y="220" width="20" height="20" rx="7" fill="#C7CDE4"/><text x="76" y="237" fill="#5A648C">My courses</text>
+    <rect x="36" y="290" width="20" height="20" rx="7" fill="#C7CDE4"/><text x="76" y="307" fill="#5A648C">Explore</text>
+    <rect x="36" y="360" width="20" height="20" rx="7" fill="#C7CDE4"/><text x="76" y="377" fill="#5A648C">Mentors</text>
+    <rect x="36" y="430" width="20" height="20" rx="7" fill="#C7CDE4"/><text x="76" y="447" fill="#5A648C">Certificates</text>
+    <rect x="36" y="500" width="20" height="20" rx="7" fill="#C7CDE4"/><text x="76" y="517" fill="#5A648C">Community</text>
+  </g>
+
+  <rect x="20" y="960" width="240" height="130" rx="24" fill="url(#p1)"/>
+  <text x="44" y="1004" fill="#EDE9FE" font-size="16" font-weight="700" letter-spacing="1">STREAK</text>
+  <text x="44" y="1050" fill="#fff" font-size="38" font-weight="800">12 days</text>
+  <g fill="#FDE68A"><circle cx="44" cy="1074" r="7"/><circle cx="68" cy="1074" r="7"/><circle cx="92" cy="1074" r="7"/><circle cx="116" cy="1074" r="7"/><circle cx="140" cy="1074" r="7"/></g>
+  <g fill="#C4B5FD"><circle cx="164" cy="1074" r="7"/><circle cx="188" cy="1074" r="7"/></g>
+
+  <!-- topbar -->
+  <text x="330" y="88" fill="#0A1233" font-size="36" font-weight="800">Welcome back, Noah</text>
+  <rect x="760" y="46" width="380" height="58" rx="29" fill="#fff"/>
+  <circle cx="800" cy="74" r="10" fill="none" stroke="#9AA3C2" stroke-width="3.5"/><path d="M808 82l9 9" stroke="#9AA3C2" stroke-width="3.5" stroke-linecap="round"/>
+  <text x="832" y="82" fill="#9AA3C2" font-size="18">Search lessons, mentors…</text>
+  <circle cx="1200" cy="75" r="26" fill="#EEF2FF"/><path d="M1190 68h20v12h-8v6l-6-4h-6z" fill="#7C3AED"/>
+  <circle cx="1218" cy="56" r="9" fill="#F43F5E"/>
+  <rect x="1256" y="46" width="146" height="58" rx="29" fill="url(#p2)"/>
+  <text x="1329" y="83" fill="#fff" font-size="18" font-weight="700" text-anchor="middle">+ New plan</text>
+  <circle cx="1466" cy="75" r="30" fill="#0A1233"/><text x="1466" y="85" fill="#fff" font-size="21" font-weight="700" text-anchor="middle">NW</text>
+
+  <!-- continue learning hero -->
+  <g transform="translate(330,132)" filter="url(#psh)">
+    <rect width="1230" height="330" rx="30" fill="url(#pcover)"/>
+    <circle cx="1050" cy="70" r="180" fill="#2563FF" fill-opacity=".3"/>
+    <circle cx="1180" cy="280" r="130" fill="#22D3EE" fill-opacity=".22"/>
+    <circle cx="880" cy="300" r="110" fill="#7C3AED" fill-opacity=".3"/>
+  </g>
+  <g transform="translate(330,132)">
+    <rect x="48" y="46" width="176" height="38" rx="19" fill="#22D3EE" fill-opacity=".22"/>
+    <text x="136" y="72" fill="#67E8F9" font-size="16" font-weight="800" letter-spacing="2" text-anchor="middle">CONTINUE LEARNING</text>
+    <text x="46" y="152" fill="#fff" font-size="46" font-weight="800" letter-spacing="-1">Design Systems at Scale</text>
+    <text x="48" y="196" fill="#AEB9E4" font-size="20">Module 4 of 8 · Token architecture &amp; theming</text>
+
+    <rect x="48" y="230" width="640" height="16" rx="8" fill="#1E2B63"/>
+    <rect x="48" y="230" width="392" height="16" rx="8" fill="url(#p2)"/>
+    <text x="48" y="286" fill="#8FA0C9" font-size="17" font-weight="600">61% complete</text>
+    <rect x="240" y="258" width="176" height="46" rx="23" fill="#fff"/>
+    <path d="M272 270l18 11-18 11z" fill="#0A1233"/>
+    <text x="330" y="288" fill="#0A1233" font-size="18" font-weight="800" text-anchor="middle">Resume</text>
+
+    <!-- progress ring -->
+    <g transform="translate(980,60)">
+      <circle cx="105" cy="105" r="94" fill="#0E1740" fill-opacity=".75"/>
+      <circle cx="105" cy="105" r="94" fill="none" stroke="#1E2B63" stroke-width="20"/>
+      <circle cx="105" cy="105" r="94" fill="none" stroke="url(#p3)" stroke-width="20" stroke-linecap="round" stroke-dasharray="359 591" transform="rotate(-90 105 105)"/>
+      <text x="105" y="118" fill="#fff" font-size="52" font-weight="800" text-anchor="middle">61%</text>
+      <text x="105" y="152" fill="#8FA0C9" font-size="17" text-anchor="middle">course done</text>
+    </g>
+    <g transform="translate(700,240)">
+      <rect width="216" height="54" rx="27" fill="#141E45"/>
+      <circle cx="34" cy="27" r="14" fill="#FBBF24"/><path d="M34 19v8l6 4" stroke="#0A1233" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <text x="62" y="34" fill="#D7DEF7" font-size="17" font-weight="700">3h 20m left</text>
+    </g>
+  </g>
+
+  <!-- section heading -->
+  <text x="330" y="534" fill="#0A1233" font-size="30" font-weight="800">Your courses</text>
+  <rect x="1330" y="500" width="230" height="46" rx="23" fill="#fff"/>
+  <text x="1445" y="530" fill="#2563FF" font-size="17" font-weight="700" text-anchor="middle">Browse 900+ courses</text>
+
+  <!-- course cards -->
+  <g transform="translate(330,564)">
+    <g filter="url(#psh)"><rect width="386" height="360" rx="28" fill="#fff"/></g>
+    <path d="M0 28A28 28 0 0 1 28 0h330a28 28 0 0 1 28 28v172H0z" fill="url(#p2)"/>
+    <circle cx="300" cy="86" r="70" fill="#ffffff" fill-opacity=".16"/>
+    <rect x="34" y="52" width="128" height="36" rx="18" fill="#0A1233" fill-opacity=".35"/>
+    <text x="98" y="77" fill="#fff" font-size="15" font-weight="800" text-anchor="middle">UI · 8 MODULES</text>
+    <path d="M64 168v-58l52 52v-52" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+    <text x="34" y="256" fill="#0A1233" font-size="25" font-weight="800">Design Systems</text>
+    <text x="34" y="288" fill="#6B769B" font-size="17">Ana Okafor · Principal Designer</text>
+    <rect x="34" y="310" width="318" height="14" rx="7" fill="#EEF1F9"/>
+    <rect x="34" y="310" width="244" height="14" rx="7" fill="url(#p2)"/>
+    <text x="34" y="348" fill="#2563FF" font-size="16" font-weight="800">61% · 5 of 8 modules</text>
+    <text x="352" y="348" fill="#98A1C0" font-size="16" font-weight="700" text-anchor="end">6h 10m</text>
+
+    <g transform="translate(422,0)" filter="url(#psh)"><rect width="386" height="360" rx="28" fill="#fff"/></g>
+    <g transform="translate(422,0)">
+      <path d="M0 28A28 28 0 0 1 28 0h330a28 28 0 0 1 28 28v172H0z" fill="url(#p3)"/>
+      <circle cx="90" cy="92" r="66" fill="#ffffff" fill-opacity=".16"/>
+      <rect x="34" y="52" width="150" height="36" rx="18" fill="#0A1233" fill-opacity=".35"/>
+      <text x="109" y="77" fill="#fff" font-size="15" font-weight="800" text-anchor="middle">CODE · 12 MODULES</text>
+      <g stroke="#fff" stroke-width="9" stroke-linecap="round" fill="none" opacity=".92">
+        <path d="M232 84l-24 24 24 24"/><path d="M296 84l24 24-24 24"/><path d="M276 74l-24 68"/>
+      </g>
+      <text x="34" y="256" fill="#0A1233" font-size="25" font-weight="800">Advanced CSS Layout</text>
+      <text x="34" y="288" fill="#6B769B" font-size="17">Marc Delacroix · CSS Working Group</text>
+      <rect x="34" y="310" width="318" height="14" rx="7" fill="#EEF1F9"/>
+      <rect x="34" y="310" width="96" height="14" rx="7" fill="url(#p3)"/>
+      <text x="34" y="348" fill="#7C3AED" font-size="16" font-weight="800">30% · 4 of 12 modules</text>
+      <text x="352" y="348" fill="#98A1C0" font-size="16" font-weight="700" text-anchor="end">9h 45m</text>
+    </g>
+
+    <g transform="translate(844,0)" filter="url(#psh)"><rect width="386" height="360" rx="28" fill="#fff"/></g>
+    <g transform="translate(844,0)">
+      <path d="M0 28A28 28 0 0 1 28 0h330a28 28 0 0 1 28 28v172H0z" fill="url(#p4)"/>
+      <circle cx="292" cy="150" r="86" fill="#0A1233" fill-opacity=".10"/>
+      <rect x="34" y="52" width="164" height="36" rx="18" fill="#0A1233" fill-opacity=".3"/>
+      <text x="116" y="77" fill="#fff" font-size="15" font-weight="800" text-anchor="middle">STRATEGY · 6 MODULES</text>
+      <g transform="translate(60,84)">
+        <rect width="132" height="86" rx="14" fill="#0A1233" fill-opacity=".82"/>
+        <rect x="16" y="54" width="18" height="20" rx="5" fill="#FDE68A"/>
+        <rect x="44" y="40" width="18" height="34" rx="5" fill="#FDE68A"/>
+        <rect x="72" y="26" width="18" height="48" rx="5" fill="#FDE68A"/>
+        <rect x="100" y="12" width="18" height="62" rx="5" fill="#FDE68A"/>
+      </g>
+      <text x="34" y="256" fill="#0A1233" font-size="25" font-weight="800">Product Strategy</text>
+      <text x="34" y="288" fill="#6B769B" font-size="17">Elena Marchetti · VP Product, Lumen</text>
+      <rect x="34" y="310" width="318" height="14" rx="7" fill="#EEF1F9"/>
+      <rect x="34" y="310" width="318" height="14" rx="7" fill="url(#p4)"/>
+      <text x="34" y="348" fill="#B45309" font-size="16" font-weight="800">100% · completed</text>
+      <rect x="266" y="330" width="86" height="30" rx="15" fill="#DCFCE7"/>
+      <text x="309" y="351" fill="#15803D" font-size="15" font-weight="800" text-anchor="middle">CERT ✓</text>
+    </g>
+  </g>
+
+  <!-- schedule + activity -->
+  <g transform="translate(330,964)">
+    <g filter="url(#psh)"><rect width="600" height="200" rx="28" fill="#fff"/></g>
+    <text x="34" y="52" fill="#0A1233" font-size="22" font-weight="800">Live sessions this week</text>
+    <g font-size="17">
+      <rect x="34" y="74" width="532" height="52" rx="18" fill="#F5F7FE"/>
+      <rect x="48" y="84" width="64" height="32" rx="16" fill="url(#p2)"/><text x="80" y="106" fill="#fff" font-size="15" font-weight="800" text-anchor="middle">TUE</text>
+      <text x="132" y="106" fill="#0A1233" font-weight="700">Token architecture workshop</text>
+      <text x="548" y="106" fill="#6B769B" text-anchor="end">18:00</text>
+      <rect x="34" y="136" width="532" height="52" rx="18" fill="#F5F7FE"/>
+      <rect x="48" y="146" width="64" height="32" rx="16" fill="#7C3AED"/><text x="80" y="168" fill="#fff" font-size="15" font-weight="800" text-anchor="middle">THU</text>
+      <text x="132" y="168" fill="#0A1233" font-weight="700">Portfolio review with Ana O.</text>
+      <text x="548" y="168" fill="#6B769B" text-anchor="end">17:30</text>
+    </g>
+
+    <g transform="translate(630,0)" filter="url(#psh)"><rect width="600" height="200" rx="28" fill="#fff"/></g>
+    <g transform="translate(630,0)">
+      <text x="34" y="52" fill="#0A1233" font-size="22" font-weight="800">Weekly activity</text>
+      <text x="566" y="52" fill="#16A34A" font-size="17" font-weight="800" text-anchor="end">+18%</text>
+      <g>
+        <rect x="34" y="120" width="46" height="46" rx="12" fill="#E5E9F8"/>
+        <rect x="106" y="96" width="46" height="70" rx="12" fill="#E5E9F8"/>
+        <rect x="178" y="110" width="46" height="56" rx="12" fill="#E5E9F8"/>
+        <rect x="250" y="72" width="46" height="94" rx="12" fill="url(#p1)"/>
+        <rect x="322" y="88" width="46" height="78" rx="12" fill="url(#p1)"/>
+        <rect x="394" y="60" width="46" height="106" rx="12" fill="url(#p2)"/>
+        <rect x="466" y="104" width="46" height="62" rx="12" fill="#E5E9F8"/>
+      </g>
+      <g font-size="15" fill="#98A1C0" text-anchor="middle">
+        <text x="57" y="186">M</text><text x="129" y="186">T</text><text x="201" y="186">W</text><text x="273" y="186">T</text><text x="345" y="186">F</text><text x="417" y="186">S</text><text x="489" y="186">S</text>
+      </g>
+    </g>
+  </g>
+</svg>
