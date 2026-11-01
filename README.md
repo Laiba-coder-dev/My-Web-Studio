@@ -1,4 +1,4 @@
-# Techvora Solutions — Business Website
+# Techvora Solutions 
 
 The official website of **Techvora Solutions**, a digital studio that designs and builds websites, apps and brand systems. Built with **HTML5, CSS3 and vanilla JavaScript** — no frameworks, no build step, no dependencies. Open it locally or drop the folder on any static host.
 
@@ -60,18 +60,18 @@ Verified at **375 / 390 / 430 / 768 / 1024 / 1440px**.
 ## Folder structure
 
 ```
-├── index.html          # Home
+├── index.html          
 ├── about.html
 ├── services.html
 ├── portfolio.html
 ├── contact.html
 ├── README.md
 ├── css/
-│   └── style.css       # tokens, base, components, sections, motion, responsive layer
+│   └── style.css       
 ├── js/
-│   └── main.js         # all 13 interactive features (modular IIFEs)
+│   └── main.js        
 └── assets/
-    └── images/         # 30 self-hosted images: 19 photographs (JPG), 9 SVG marks, 2 PNG brand icons
+    └── images/         
 ```
 
 All imagery is local, so the site runs fully offline (Google Fonts fall back to the system stack when offline).
